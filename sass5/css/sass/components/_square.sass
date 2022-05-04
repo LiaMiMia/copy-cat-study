@@ -1,0 +1,37 @@
+.square
+    height: 50px
+    width: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: grey
+
+
+$colors: red, green, blue 
+
+
+@each $value in $colors
+    .#{$value}
+        background-color: $value
+
+// each avec une list-map
+$red: red 
+$green: green 
+$blue: blue 
+
+$colorsMap: ('red': $red, 'green': $green, 'blue': $blue)
+
+@each $value in $colorsMap
+    .#{value}
+        background-color: white
+        border: solid 2px $value
+
+// boucle FOR
+
+@for $i from 1 to 4
+    .square:nth-child(#{$i})
+        font-size: #{10 * $i}px
+        if $i == 1
+            margin-bottom: 100px
+        else 
+            margin-bottom: 0px

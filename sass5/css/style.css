@@ -1,0 +1,96 @@
+.square {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.value {
+  background-color: white;
+  border: solid 2px "red" red;
+}
+
+.value {
+  background-color: white;
+  border: solid 2px "green" green;
+}
+
+.value {
+  background-color: white;
+  border: solid 2px "blue" blue;
+}
+
+.square:nth-child(1) {
+  font-size: 10px;
+}
+
+.square:nth-child(2) {
+  font-size: 20px;
+}
+
+.square:nth-child(3) {
+  font-size: 30px;
+}
+
+body {
+  background-color: white;
+}
+
+.input {
+  opacity: 0.5;
+}
+
+.input + span {
+  background-color: orange;
+}
+
+.input:checked {
+  opacity: 1;
+}
+
+.input:checked + span {
+  background-color: red;
+}
+
+.conditions {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.circle {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
